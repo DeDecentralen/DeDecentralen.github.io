@@ -1,3 +1,4 @@
 ---
 layout: index
+title: Verkiezingsprogramma
 ---

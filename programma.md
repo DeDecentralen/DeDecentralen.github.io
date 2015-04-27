@@ -1,4 +1,0 @@
----
-layout: programma
-title: Verkiezingsrogramma
----
