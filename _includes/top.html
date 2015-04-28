@@ -13,6 +13,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-submenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
@@ -56,13 +57,35 @@
           </img>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="nav collapse navbar-collapse " id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="/">Programma</a>
+            <li class="dropdown">
+              <a tabindex="0" data-toggle="dropdown" aria-expanded="false">Programma<span class="caret"></span></a>
+              <!-- role="menu": fix moved by arrows (Bootstrap dropdown) -->
+              <ul class="dropdown-menu" role="menu">
+                <li><a tabindex="0" href="/#overzicht">Overzicht</a></li>
+                <li class="divider"></li>
+                <li><a tabindex="0" href="/#decentralisatie">Decentralisatie</a></li>
+                <li><a tabindex="0" href="/#democratisering">Democratisering</a></li>
+                <li><a tabindex="0" href="/#transparantie">Transparantie</a></li>
+                <li><a tabindex="0" href="/#duurzaam">Duurzaam</a></li>
+                <li><a tabindex="0" href="/#universiteit">Universiteit</a></li>
+              </ul>
             </li>
-            <li>
-              <a href="/kandidaten">Kandidaten</a>
+            <li class="dropdown">
+              <a tabindex="0" data-toggle="dropdown" aria-expanded="false">Kandidaten<span class="caret"></span></a>
+              <!-- role="menu": fix moved by arrows (Bootstrap dropdown) -->
+              <ul class="dropdown-menu" role="menu">
+                <li><a tabindex="0" href="/kandidaten#naomi">Naomi Appelman</a></li>
+                <li><a tabindex="0" href="/kandidaten#lianne">Lianne Hooijmans</a></li>
+                <li><a tabindex="0" href="/kandidaten#gijs">Gijs Doeleman</a></li>
+                <li><a tabindex="0" href="/kandidaten#kavel">Kavel Ozturk</a></li>
+                <li><a tabindex="0" href="/kandidaten#julia">Julia van Rosmalen</a></li>
+                <li><a tabindex="0" href="/kandidaten#yvo">Yvo Greydanus</a></li>
+                <li><a tabindex="0" href="/kandidaten#lennard">Lennard van Uffelen</a></li>
+                <li><a tabindex="0" href="/kandidaten#jouke">Jouke Huijzer</a></li>
+                <li><a tabindex="0" href="/kandidaten#tivadar">Tivadar Vervoort</a></li>
+              </ul>
             </li>
             <li>
               <a href="/#contact">Contact</a>
