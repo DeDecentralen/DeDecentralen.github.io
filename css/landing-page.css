@@ -21,6 +21,11 @@ h6 {
     font-weight: 700;
 }
 
+a {
+  cursor: pointer;
+  cursor: hand;
+}
+
 .topnav {
     font-size: 14px;
 }
