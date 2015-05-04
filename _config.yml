@@ -1,2 +1,5 @@
 url: https://dedecentralen.nl   # with the https protocol
 enforce_ssl: dedecentralen.nl   # without any protocol
+
+gems:
+  - jekyll-sitemap
