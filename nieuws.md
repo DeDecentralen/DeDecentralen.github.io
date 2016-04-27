@@ -1,0 +1,4 @@
+---
+layout: nieuws
+title: Nieuws
+---
